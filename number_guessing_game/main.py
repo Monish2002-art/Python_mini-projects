@@ -1,6 +1,6 @@
 import random #random is a library to generate random numbers
 
-number=random.randrange(1,100)
+number=random.randrange(1,10)
 
 chance = 0
 print("Welcome to number guessing game!!!")
