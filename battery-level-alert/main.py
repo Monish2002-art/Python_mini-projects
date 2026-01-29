@@ -16,7 +16,7 @@ percent = battery.percent
 
 client = Client(acc_sid,auth_token)
 
-if percent < 90:
+if percent < 20:
     message = client.messages.create(
         body = f"Your laptop's battery percentage is {percent}%, You need to charge now",
         from_="+19094793922",
